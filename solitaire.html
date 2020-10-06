@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #table {
+            background-color: green;
+            height: 2000px;
+        }
+
+        #score {
+            position: fixed;
+            top: 30px;
+            width: 100%;
+            text-align: center;
+            color: red;
+            font-size: 32px;
+            font-weight: bold;
+            border: 2px dashed white;
+
+        }
+
+        .card {
+            padding: 5px;
+            border-radius: 5px;
+            background-color: white;
+            border: 2px solid black;
+            width: 100px;
+            height: 150px;
+            position: absolute;
+        }
+
+        .card img {
+            position: absolute;
+            top: 45px;
+            left: 30px;
+        }
+
+        #k {
+            top: 30px;
+            left: 30px;
+        }
+
+        #q {
+            top: 60px;
+            left: 60px;
+
+        }
+
+        #j {
+            top: 90px;
+            left: 90px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="table">
+
+        <div id="score">
+            550 points
+        </div>
+
+        <div id="k" class="card">
+            K
+        </div>
+
+        <div id="q" class="card">
+            Q
+        </div>
+
+        <div id="j" class="card">
+            J
+
+            <img src="https://icon2.cleanpng.com/20180408/bcw/kisspng-spade-shovel-clip-art-ace-card-5ac9db9e799298.984891301523178398498.jpg"
+                width="50" height="50" />
+        </div>
+
+    </div>
+</body>
+
+</html>
